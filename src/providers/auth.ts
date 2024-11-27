@@ -2,8 +2,8 @@ import { AuthBindings } from "@refinedev/core";
 import { API_URL,dataProvider } from "./data";
 
 export const authCredentials = {
-    email: 'kyii@thelord.com',
-    password: 'demodemo'
+    email: 'michael.scott@dundermifflin.com',
+    password: 'demodemo',
 };
 
 export const authProvider : AuthBindings = {
