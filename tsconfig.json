@@ -14,9 +14,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*":["./*"]
+    }
   },
-  "include": ["src"],
+  "include": ["src", "src/graphql/schema.types.ts"],
   "references": [
     {
       "path": "./tsconfig.node.json"
